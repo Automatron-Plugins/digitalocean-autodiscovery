@@ -10,6 +10,12 @@ To install this plugin simply copy the `digitalocean` directory into Automatron'
 $ cp -r digitalocean/ plugins/discovery/
 ```
 
+Install requirements with `pip`.
+
+```shell
+$ pip install -r requirements.txt
+```
+
 ## Configuration
 
 This plugin does require some configuration in Automatron's master configuration file `config.yml`.
